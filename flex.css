@@ -1,0 +1,25 @@
+* {
+    border: solid blue;
+    background-color: lightblue;
+}
+
+.card {
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 2em;
+    max-height: 40px;
+
+}
+
+.container {
+    min-height: 48em;
+    display: flex;
+    justify-content: space-around;   
+    align-items: flex-end;
+    flex-wrap: wrap; 
+}
+
+#bad {
+    order: 1;
+}
